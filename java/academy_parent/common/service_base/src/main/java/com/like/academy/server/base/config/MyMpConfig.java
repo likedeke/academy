@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @MapperScan("com.like.academy.edu.mapper")
-public class MpConfig {
+public class MyMpConfig {
     @Bean
     public PaginationInterceptor paginationInterceptor() {
         return new PaginationInterceptor();

@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @Configuration
 @EnableSwagger2
-public class SwaggerConfig {
+public class MySwaggerConfig {
 
     @Bean
     //网站api测试

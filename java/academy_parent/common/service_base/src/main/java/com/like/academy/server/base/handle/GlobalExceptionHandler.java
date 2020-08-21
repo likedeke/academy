@@ -21,7 +21,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public Result error(Exception e) {
-        System.out.println("运行1了");
+        System.out.println("运行了");
         return Result.error();
     }
 

@@ -1,5 +1,6 @@
 package com.like.academy.server.base.handle;
 
+import com.like.academy.server.base.excetpion.AcademyException;
 import com.lk.academy.common.base.result.Result;
 import com.lk.academy.common.base.result.ResultCodeEnum;
 import com.lk.academy.common.base.util.ExceptionUtils;
@@ -39,4 +40,13 @@ public class MyGlobalExceptionHandler {
         log.error(ExceptionUtils.getMessage(e));
         return Result.setResult(ResultCodeEnum.JSON_PARSE_ERROR);
     }
+
+    //捕获自定义异常
+    @ExceptionHandler (AcademyException.class)
+    @ResponseBody
+    public Result error(AcademyException e) {
+        log.error(ExceptionUtils.getMessage(e));
+        return Result.error().message(e.getMessage()).code(e.getCode());
+    }
+
 }

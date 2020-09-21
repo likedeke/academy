@@ -11,6 +11,9 @@ import com.like.academy.edu.service.TeacherService;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.List;
+import java.util.Map;
+
 /**
  * <p>
  * 讲师 服务实现类
@@ -20,8 +23,7 @@ import org.springframework.util.StringUtils;
  * @since 2020-08-20
  */
 @Service
-public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher>
-        implements TeacherService {
+public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> implements TeacherService {
 
     /**
      * 根据讲师条件查询对象查询分页
@@ -41,21 +43,38 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher>
         }
         //2.按照传入的teacher分页查询条件对象查询
         String name = teacherQueryVo.getName();
-        Integer lever = teacherQueryVo.getLever();
+        Integer level = teacherQueryVo.getLevel();
         String joinDateBegin = teacherQueryVo.getJoinDateBegin();
         String joinDateEnd = teacherQueryVo.getJoinDateEnd();
         if (!StringUtils.isEmpty(name)) {//如果name不为空 like "name%"
             query.likeRight("name", name);
         }
-        if (lever != null) {//如果lever不为null  lever== xx
-            query.eq("lever", lever);
+        if (level != null) {//如果lever不为null  lever== xx
+            query.eq("level", level);
         }
         if (!StringUtils.isEmpty(joinDateBegin)) {//如果不为空 join_date<=
             query.ge("join_date", joinDateBegin);
         }
-        if (!StringUtils.isEmpty(joinDateBegin)) {//如果不为空 join_date>=
+        if (!StringUtils.isEmpty(joinDateEnd)) {//如果不为空 join_date>=
             query.le("join_date", joinDateEnd);
         }
         return baseMapper.selectPage(pageParam, query);
     }
+
+    /**
+     * 根据输入的key模糊查询数据库中的姓名
+     *
+     * @param key 姓名
+     *
+     * @return name：TeacherName
+     */
+    @Override
+    public List<Map<String, Object>> selectNameList(String key) {
+
+        QueryWrapper<Teacher> queryWrapper = new QueryWrapper<>();
+        queryWrapper.select("name");
+        queryWrapper.like("name",key);
+        return baseMapper.selectMaps(queryWrapper);
+    }
+
 }

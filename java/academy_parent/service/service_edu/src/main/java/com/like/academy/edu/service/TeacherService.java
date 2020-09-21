@@ -2,9 +2,12 @@ package com.like.academy.edu.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.like.academy.edu.entity.Teacher;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.like.academy.edu.entity.Teacher;
 import com.like.academy.edu.entity.vo.TeacherQueryVo;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -22,4 +25,14 @@ public interface TeacherService extends IService<Teacher> {
      * @return IPage
      */
     IPage<Teacher> selectPage(Page<Teacher> pageParam, TeacherQueryVo teacherQueryVo);
+
+    /**
+     * 根据输入的key模糊查询数据库中的姓名
+     *
+     * @param key 姓名
+     *
+     * @return name：TeacherName
+     */
+    List<Map<String, Object>> selectNameList(String key);
+
 }

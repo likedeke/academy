@@ -1,0 +1,32 @@
+2020-08-27 20:27:37,540 INFO initializing Raft sub-system
+
+2020-08-27 20:27:37,540 INFO raft notifier started
+
+2020-08-27 20:27:37,543 INFO finish loading all datums, size: 0 cost 3 ms.
+
+2020-08-27 20:27:37,548 INFO cache loaded, datum count: 0, current term: 0
+
+2020-08-27 20:27:37,548 INFO finish to load data from disk, cost: 8 ms.
+
+2020-08-27 20:27:37,550 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-08-27 20:27:37,446 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.153.1","key":"192.168.153.1:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2020-08-27 20:27:37,557 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.153.1","key":"192.168.153.1:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-08-27 20:27:37,611 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-08-27 20:27:39,761 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-08-27 20:27:45,048 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@server-edu
+
+2020-08-27 20:27:47,089 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-oss
+
+2020-08-27 20:27:47,444 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.153.1","key":"192.168.153.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-08-27 20:27:47,444 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.153.1","key":"192.168.153.1:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-08-27 20:27:47,444 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.153.1","key":"192.168.153.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-08-27 20:27:49,560 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.153.1","key":"192.168.153.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+

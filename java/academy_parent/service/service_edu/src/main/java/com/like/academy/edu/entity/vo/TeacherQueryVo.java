@@ -20,7 +20,7 @@ public class TeacherQueryVo implements Serializable {
     private String name;
 
     @ApiModelProperty (value = "头衔 1高级讲师 2首席讲师")
-    private Integer lever;
+    private Integer level;
 
     @ApiModelProperty (value = "加入时间范围的起始时间")
     private String joinDateBegin;

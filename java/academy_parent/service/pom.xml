@@ -29,6 +29,7 @@
         </repository>
     </repositories>
     <dependencies>
+        <!--自定义的工具包-->
         <dependency>
            <groupId>com.like</groupId>
            <artifactId>common</artifactId>

@@ -11,11 +11,12 @@ import org.springframework.web.bind.annotation.DeleteMapping;
  * @time 2020-08-27  20:47
  */
 @Service
-@FeignClient ("service-oss")
+@FeignClient ("service-oss") // 注册在nacos中服务的名字
 public interface OssFileService {
     /**
      * openFeign 远程调用文件删除
-     * @return
+     *
+     * @return Result
      */
     @ApiOperation ("文件删除")
     @DeleteMapping ("/admin/oss/file/del")

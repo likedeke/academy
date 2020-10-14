@@ -13,13 +13,11 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan ("com.like.academy")
-// 开启服务发现
-@EnableDiscoveryClient
-// 开启服务调用
-@EnableFeignClients
+@EnableDiscoveryClient // 开启服务发现
+@EnableFeignClients // 开启服务调用
 @RefreshScope
-public class ServiceAcademyApplication {
+public class ServiceEduApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ServiceAcademyApplication.class, args);
+        SpringApplication.run(ServiceEduApplication.class, args);
     }
 }

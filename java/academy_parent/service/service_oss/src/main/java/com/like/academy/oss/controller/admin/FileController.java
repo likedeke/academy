@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.InputStream;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author likeLove
@@ -49,11 +48,11 @@ public class FileController {
     @ApiOperation ("文件删除")
     @DeleteMapping ("/del")
     public Result del() {
-        try {
+       /* try {
             TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
         return Result.ok().message("文件删除成功");
     }
 }

@@ -19,6 +19,7 @@ public interface OssFileService {
      * @return Result
      */
     @ApiOperation ("文件删除")
+    // 在oss服务中完成的调用地址
     @DeleteMapping ("/admin/oss/file/del")
     Result del();
 }

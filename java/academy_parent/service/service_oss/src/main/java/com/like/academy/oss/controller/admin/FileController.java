@@ -1,7 +1,7 @@
 package com.like.academy.oss.controller.admin;
 
-import com.like.academy.oss.service.FileService;
 
+import com.like.academy.oss.service.FileService;
 import com.like.academy.server.base.excetpion.AcademyException;
 import com.lk.academy.common.base.result.Result;
 import com.lk.academy.common.base.result.ResultCodeEnum;

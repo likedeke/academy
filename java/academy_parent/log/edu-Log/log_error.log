@@ -1,32 +1,4 @@
-2020-08-28 13:38:26 |ERROR |main |LoggingFailureAnalysisReporter.java:40 |org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter |
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8888 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
-
-2020-08-28 13:39:22 |ERROR |main |LoggingFailureAnalysisReporter.java:40 |org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter |
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8888 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
-
-2020-08-28 19:08:19 |ERROR |main |NacosServiceRegistry.java:66 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, server-edu register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='server-edu', weight=1.0, clusterName='DEFAULT', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.153.1', networkInterface='', port=8888, secure=false, accessKey='', secretKey=''}},
+2020-10-14 16:13:48 |ERROR |main |NacosServiceRegistry.java:66 |com.alibaba.cloud.nacos.registry.NacosServiceRegistry |nacos registry, service_edu register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service_edu', weight=1.0, clusterName='DEFAULT', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.153.1', networkInterface='', port=8888, secure=false, accessKey='', secretKey=''}},
 java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:464)
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
@@ -53,4 +25,4 @@ java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after a
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.like.academy.edu.ServiceAcademyApplication.main(ServiceAcademyApplication.java:19)
+	at com.like.academy.edu.ServiceAcademyApplication.main(ServiceAcademyApplication.java:21)

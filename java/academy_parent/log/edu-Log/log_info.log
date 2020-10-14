@@ -527,3 +527,30 @@
 2020-08-28 21:09:38 |INFO  |com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848 |SpringApplication.java:655 |org.springframework.boot.SpringApplication |The following profiles are active: dev
 2020-08-28 21:09:38 |INFO  |com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848 |StartupInfoLogger.java:61 |org.springframework.boot.SpringApplication |Started application in 4.301 seconds (JVM running for 161.016)
 2020-08-28 21:09:38 |INFO  |com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848 |RefreshEventListener.java:73 |org.springframework.cloud.endpoint.event.RefreshEventListener |Refresh keys changed: [myName]
+2020-10-14 16:13:36 |INFO  |main |NacosPropertySourceBuilder.java:87 |com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder |Loading nacos data, dataId: 'service_edu-dev.properties', group: 'DEFAULT_GROUP'
+2020-10-14 16:13:36 |INFO  |main |PropertySourceBootstrapConfiguration.java:109 |org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration |Located property source: [BootstrapPropertySource {name='bootstrapProperties-service_edu-dev.properties'}, BootstrapPropertySource {name='bootstrapProperties-service_edu.properties'}]
+2020-10-14 16:13:36 |INFO  |main |SpringApplication.java:655 |com.like.academy.edu.ServiceAcademyApplication |The following profiles are active: dev
+2020-10-14 16:13:37 |INFO  |main |GenericScope.java:295 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=e1b0eb05-076b-3c87-8337-d32939960386
+2020-10-14 16:13:37 |INFO  |main |PostProcessorRegistrationDelegate.java:330 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 16:13:37 |INFO  |main |TomcatWebServer.java:92 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 8888 (http)
+2020-10-14 16:13:37 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-8888"]
+2020-10-14 16:13:37 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2020-10-14 16:13:37 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-14 16:13:37 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2020-10-14 16:13:37 |INFO  |main |ServletWebServerApplicationContext.java:284 |org.springframework.web.context.ContextLoader |Root WebApplicationContext: initialization completed in 1398 ms
+2020-10-14 16:13:39 |INFO  |main |PropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-14 16:13:39 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-14 16:13:39 |INFO  |main |URLConfigurationSource.java:122 |com.netflix.config.sources.URLConfigurationSource |To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-14 16:13:39 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor |Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 16:13:41 |INFO  |main |InetUtils.java:170 |org.springframework.cloud.commons.util.InetUtils |Cannot determine local hostname
+2020-10-14 16:13:41 |INFO  |main |ExecutorConfigurationSupport.java:171 |org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler |Initializing ExecutorService
+2020-10-14 16:13:43 |INFO  |main |InetUtils.java:170 |org.springframework.cloud.commons.util.InetUtils |Cannot determine local hostname
+2020-10-14 16:13:45 |INFO  |main |InetUtils.java:170 |org.springframework.cloud.commons.util.InetUtils |Cannot determine local hostname
+2020-10-14 16:13:45 |INFO  |main |DocumentationPluginsBootstrapper.java:147 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Context refreshed
+2020-10-14 16:13:45 |INFO  |main |DocumentationPluginsBootstrapper.java:150 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 2 custom documentation plugin(s)
+2020-10-14 16:13:45 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-14 16:13:46 |INFO  |main |ApiListingReferenceScanner.java:41 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2020-10-14 16:13:46 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-8888"]
+2020-10-14 16:13:46 |INFO  |main |TomcatWebServer.java:204 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 8888 (http) with context path ''
+2020-10-14 16:13:50 |INFO  |main |InetUtils.java:170 |org.springframework.cloud.commons.util.InetUtils |Cannot determine local hostname
+2020-10-14 16:13:50 |INFO  |main |StartupInfoLogger.java:61 |com.like.academy.edu.ServiceAcademyApplication |Started ServiceAcademyApplication in 24.946 seconds (JVM running for 26.576)

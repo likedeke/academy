@@ -23,15 +23,21 @@ import java.util.Map;
  * </p>
  *
  * @author like
- * @since 2020-08-20
+ * @since 2020 -08-20
  */
 @CrossOrigin
 @RestController
 @RequestMapping ("/admin/edu/teacher")
 @Api (tags = "讲师管理")
 public class TeacherController {
+    /**
+     * The Teacher service.
+     */
     @Autowired
     TeacherService teacherService;
+    /**
+     * The Oss file service.
+     */
     @Autowired
     OssFileService ossFileService;
 
@@ -40,7 +46,7 @@ public class TeacherController {
      *
      * @param id 讲师id
      *
-     * @return Result
+     * @return Result teacher by id
      */
     @GetMapping ("/{id}")
     @ApiOperation (value = "根据id获取讲师")
@@ -55,7 +61,7 @@ public class TeacherController {
     /**
      * 获取所有讲师列表
      *
-     * @return Result
+     * @return Result all teacher for list
      */
     @GetMapping ("")
     @ApiOperation (value = "获取所有讲师列表")
@@ -71,18 +77,17 @@ public class TeacherController {
      * @param limit          每页显示的条目数
      * @param teacherQueryVo 讲师条件查询对象
      *
-     * @return Result
+     * @return Result result
      */
     @GetMapping ("/{page}/{limit}")
     @ApiOperation ("讲师分页列表")
     public Result pageList(@ApiParam (value = "当前页码", required = true) @PathVariable long page,
                            @ApiParam (value = "每页有多少条记录", required = true) @PathVariable long limit,
-                           @ApiParam ("讲师查询条件对象") TeacherQueryVo teacherQueryVo)
-    {
+                           @ApiParam ("讲师查询条件对象") TeacherQueryVo teacherQueryVo) {
         Page<Teacher> pageParam = new Page<>(page, limit);
         IPage<Teacher> pageModel = teacherService.selectPage(pageParam, teacherQueryVo);
-        List<Teacher> records = pageModel.getRecords();//获取分页的数据
-        long total = pageModel.getTotal();//总记录条数
+        List<Teacher> records = pageModel.getRecords(); // 获取分页的数据
+        long total = pageModel.getTotal(); // 总记录条数
         return Result.ok().data("total", total).data("rows", records);
     }
 
@@ -91,7 +96,7 @@ public class TeacherController {
      *
      * @param key 关键字
      *
-     * @return Result
+     * @return Result result
      */
     @ApiOperation ("根据关键字查询讲师名列表")
     @GetMapping ("/list/{key}")
@@ -105,7 +110,7 @@ public class TeacherController {
      *
      * @param teacher 需要添加的讲师
      *
-     * @return Result
+     * @return Result result
      */
     @PostMapping ("")
     @ApiOperation (value = "添加讲师")
@@ -122,7 +127,7 @@ public class TeacherController {
      *
      * @param teacher 需要修改的讲师
      *
-     * @return Result
+     * @return Result result
      */
     @PutMapping ("")
     @ApiOperation (value = "修改讲师信息")
@@ -139,7 +144,7 @@ public class TeacherController {
      *
      * @param id 讲师id
      *
-     * @return Result
+     * @return Result result
      */
     @DeleteMapping ("/{id}")
     @ApiOperation (value = "根据讲师id删除讲师", notes = "根据讲师id删除讲师,逻辑删除")
@@ -148,14 +153,18 @@ public class TeacherController {
         if (b) {
             ossFileService.del();
             return Result.ok().message("删除成功");
-        }
-        else {
+        } else {
             return Result.error().message("删除失败");
         }
     }
 
+    /**
+     * Test open feign result.
+     *
+     * @return the result
+     */
     @GetMapping ("/test")
-    @ApiOperation (value = "测试")
+    @ApiOperation (value = "测试oss删除方法")
     public Result testOpenFeign() {
         ossFileService.del();
         return Result.ok();
@@ -166,7 +175,7 @@ public class TeacherController {
      *
      * @param idList 讲师id列表
      *
-     * @return Result
+     * @return Result result
      */
     @DeleteMapping ("/batch-remove")
     @ApiOperation (value = "根据讲师id列表删除讲师", notes = "根据讲师id列表删除讲师,逻辑删除")
@@ -174,8 +183,7 @@ public class TeacherController {
         boolean b = teacherService.removeByIds(idList);
         if (b) {
             return Result.ok().message("删除成功");
-        }
-        else {
+        } else {
             return Result.error().message("删除失败");
         }
     }

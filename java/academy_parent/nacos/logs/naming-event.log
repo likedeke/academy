@@ -40,3 +40,131 @@
 
 2020-10-14 16:27:26,969 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,
 
+2020-10-14 16:53:35,842 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 16:53:35,845 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 16:53:35,846 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 16:53:38,750 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 16:53:38,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,
+
+2020-10-14 16:53:38,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,
+
+2020-10-14 17:08:31,420 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8888@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1602666493131
+
+2020-10-14 17:08:34,360 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8889@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602666495669
+
+2020-10-14 17:08:39,112 INFO service: DEFAULT_GROUP@@service-edu {POS} {IP-ENABLED} valid: 192.168.153.1:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:08:39,112 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 17:08:39,968 INFO service: DEFAULT_GROUP@@service-oss {POS} {IP-ENABLED} valid: 192.168.153.1:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:08:39,970 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,
+
+2020-10-14 17:12:13,009 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 17:14:46,956 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8888@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1602666868276
+
+2020-10-14 17:14:49,968 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8889@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602666870731
+
+2020-10-14 17:14:52,653 INFO service: DEFAULT_GROUP@@service-oss {POS} {IP-ENABLED} valid: 192.168.153.1:8889@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:14:52,657 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,
+
+2020-10-14 17:14:58,821 INFO service: DEFAULT_GROUP@@service-edu {POS} {IP-ENABLED} valid: 192.168.153.1:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:14:58,824 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 17:25:08,318 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 17:25:08,318 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,192.168.153.1:8080_true,
+
+2020-10-14 17:25:08,320 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,192.168.153.1:8080_true,
+
+2020-10-14 17:26:16,087 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8889@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602667559163
+
+2020-10-14 17:26:31,190 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.153.1:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-14 17:26:31,191 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8080_true,
+
+2020-10-14 17:27:33,046 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8888@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1602667635430
+
+2020-10-14 17:27:36,299 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8080@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602667638617
+
+2020-10-14 17:27:45,949 INFO service: DEFAULT_GROUP@@service-edu {POS} {IP-ENABLED} valid: 192.168.153.1:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:27:45,952 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 17:27:51,322 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.153.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-14 17:27:51,322 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 
+
+2020-10-14 17:29:00,348 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8901:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 17:29:00,348 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8901_true,
+
+2020-10-14 17:29:00,351 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8901_true,
+
+2020-10-14 17:29:03,115 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 17:29:03,115 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8080_true,192.168.153.1:8901_true,
+
+2020-10-14 17:29:03,116 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8080_true,192.168.153.1:8901_true,
+
+2020-10-14 17:29:51,519 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8080@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602667773177
+
+2020-10-14 17:29:52,022 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8902:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 17:29:52,022 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_true,192.168.153.1:8080_false,192.168.153.1:8901_true,
+
+2020-10-14 17:29:52,024 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_true,192.168.153.1:8080_false,192.168.153.1:8901_true,
+
+2020-10-14 17:30:06,549 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.153.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-14 17:30:06,550 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_true,192.168.153.1:8901_true,
+
+2020-10-14 17:33:21,847 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8901@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602667985864
+
+2020-10-14 17:33:25,806 INFO service: DEFAULT_GROUP@@service-oss {POS} {IP-ENABLED} valid: 192.168.153.1:8901@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:33:25,808 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_true,192.168.153.1:8901_true,
+
+2020-10-14 17:33:26,848 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8902@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602667987430
+
+2020-10-14 17:33:28,114 INFO service: DEFAULT_GROUP@@service-oss {POS} {IP-ENABLED} valid: 192.168.153.1:8902@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:33:28,116 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_true,192.168.153.1:8901_true,
+
+2020-10-14 17:35:41,868 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8902@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602668123333
+
+2020-10-14 17:35:41,868 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8901@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602668126023
+
+2020-10-14 17:35:46,008 INFO service: DEFAULT_GROUP@@service-oss {POS} {IP-ENABLED} valid: 192.168.153.1:8901@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:35:46,010 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_false,192.168.153.1:8901_true,
+
+2020-10-14 17:35:49,027 INFO service: DEFAULT_GROUP@@service-oss {POS} {IP-ENABLED} valid: 192.168.153.1:8902@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:35:49,028 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_true,192.168.153.1:8901_true,
+
+2020-10-14 17:36:11,880 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8901@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602668156035
+
+2020-10-14 17:36:16,881 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8902@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1602668159059
+
+2020-10-14 17:36:17,329 INFO service: DEFAULT_GROUP@@service-oss {POS} {IP-ENABLED} valid: 192.168.153.1:8901@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:36:17,332 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_false,192.168.153.1:8901_true,
+
+2020-10-14 17:36:19,789 INFO service: DEFAULT_GROUP@@service-oss {POS} {IP-ENABLED} valid: 192.168.153.1:8902@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:36:19,791 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8902_true,192.168.153.1:8901_true,
+
+2020-10-14 17:37:43,641 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8888@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1602668247291
+
+2020-10-14 17:37:47,338 INFO service: DEFAULT_GROUP@@service-edu {POS} {IP-ENABLED} valid: 192.168.153.1:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 17:37:47,342 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+

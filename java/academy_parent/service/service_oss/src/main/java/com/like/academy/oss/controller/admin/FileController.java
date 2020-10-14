@@ -10,6 +10,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -26,6 +27,8 @@ import java.io.InputStream;
 @Slf4j
 public class FileController {
 
+    @Value ("${server.port}")
+    String serverPort;
     @Autowired
     private FileService fileService;
 
@@ -53,6 +56,6 @@ public class FileController {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }*/
-        return Result.ok().message("文件删除成功");
+        return Result.ok().message("文件删除成功" + "port：" + serverPort);
     }
 }

@@ -166,8 +166,7 @@ public class TeacherController {
     @GetMapping ("/test")
     @ApiOperation (value = "测试oss删除方法")
     public Result testOpenFeign() {
-        ossFileService.del();
-        return Result.ok();
+       return ossFileService.del();
     }
 
     /**

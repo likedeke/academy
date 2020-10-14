@@ -1,2 +1,10 @@
 2020-10-14 16:17:47,311|192.168.153.1|service_edu.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
 2020-10-14 16:17:47,681|192.168.153.1|service_edu-dev.properties|DEFAULT_GROUP|null|unknown|1598620174493|pull|ok|4043293188|127.0.0.1
+2020-10-14 16:20:26,778|192.168.153.1|service-edu.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-10-14 16:20:26,786|192.168.153.1|service-edu-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-10-14 16:24:58,758|192.168.153.1|service_oss.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-10-14 16:24:58,767|192.168.153.1|service_oss-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-10-14 16:26:10,592|192.168.153.1|service-oss.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-10-14 16:26:10,601|192.168.153.1|service-oss-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-10-14 16:27:18,778|192.168.153.1|service-oss.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-10-14 16:27:18,786|192.168.153.1|service-oss-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1

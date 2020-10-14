@@ -2,3 +2,41 @@
 
 2020-10-14 16:14:35,657 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service_edu, ips: 192.168.153.1:8888_true,
 
+2020-10-14 16:17:55,939 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8888@DEFAULT@DEFAULT_GROUP@@service_edu, region: unknown, msg: client timeout after 15000, last beat: 1602663456224
+
+2020-10-14 16:17:57,117 INFO service: DEFAULT_GROUP@@service_edu {POS} {IP-ENABLED} valid: 192.168.153.1:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2020-10-14 16:17:57,119 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service_edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 16:20:36,215 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8888@DEFAULT@DEFAULT_GROUP@@service_edu, region: unknown, msg: client timeout after 15000, last beat: 1602663617472
+
+2020-10-14 16:20:36,338 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 16:20:36,338 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 16:20:36,339 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.153.1:8888_true,
+
+2020-10-14 16:20:51,327 INFO DEFAULT_GROUP@@service_edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.153.1:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-14 16:20:51,327 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service_edu, ips: 
+
+2020-10-14 16:25:07,622 INFO DEFAULT_GROUP@@service_oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 16:25:07,622 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service_oss, ips: 192.168.153.1:8889_true,
+
+2020-10-14 16:25:07,627 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service_oss, ips: 192.168.153.1:8889_true,
+
+2020-10-14 16:26:18,385 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.153.1:8889:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 16:26:18,385 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,
+
+2020-10-14 16:26:18,387 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,
+
+2020-10-14 16:26:22,636 INFO {POS} {IP-DISABLED} valid: 192.168.153.1:8889@DEFAULT@DEFAULT_GROUP@@service_oss, region: unknown, msg: client timeout after 15000, last beat: 1602663962759
+
+2020-10-14 16:26:37,642 INFO DEFAULT_GROUP@@service_oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.153.1:8889:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-14 16:26:37,642 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service_oss, ips: 
+
+2020-10-14 16:27:26,969 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.153.1:8889_true,
+

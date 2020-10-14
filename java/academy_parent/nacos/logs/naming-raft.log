@@ -28,3 +28,23 @@
 
 2020-10-14 16:14:38,676 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.153.1","key":"192.168.153.1:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
 
+2020-10-14 16:20:36,337 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-edu
+
+2020-10-14 16:20:57,383 INFO add task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@service_edu
+
+2020-10-14 16:20:57,383 INFO remove task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@service_edu
+
+2020-10-14 16:20:57,383 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@service_edu
+
+2020-10-14 16:20:57,384 INFO data removed, key=com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@service_edu, term=0
+
+2020-10-14 16:20:57,384 INFO add task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service_edu
+
+2020-10-14 16:20:57,384 INFO data removed, key=com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service_edu, term=0
+
+2020-10-14 16:20:57,392 INFO remove task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service_edu
+
+2020-10-14 16:25:07,621 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service_oss
+
+2020-10-14 16:26:18,385 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-oss
+

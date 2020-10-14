@@ -13,7 +13,9 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan ("com.like.academy")
+// 开启服务发现
 @EnableDiscoveryClient
+// 开启服务调用
 @EnableFeignClients
 @RefreshScope
 public class ServiceAcademyApplication {

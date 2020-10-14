@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java/academy_parent/academy_parent.iml" filepath="$PROJECT_DIR$/java/academy_parent/academy_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/academy_parent/common/common.iml" filepath="$PROJECT_DIR$/java/academy_parent/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/academy_parent/common/common_util/common_util.iml" filepath="$PROJECT_DIR$/java/academy_parent/common/common_util/common_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/academy_parent/service/service.iml" filepath="$PROJECT_DIR$/java/academy_parent/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/academy_parent/common/service_base/service_base.iml" filepath="$PROJECT_DIR$/java/academy_parent/common/service_base/service_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/academy_parent/service/service_edu/service_edu.iml" filepath="$PROJECT_DIR$/java/academy_parent/service/service_edu/service_edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/academy_parent/service/service_oss/service_oss.iml" filepath="$PROJECT_DIR$/java/academy_parent/service/service_oss/service_oss.iml" />
+    </modules>
+  </component>
+</project>

@@ -166,3 +166,37 @@
 
 2020-10-14 17:37:48,339 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
 
+2020-10-14 17:47:18,002 INFO DEFAULT_GROUP@@service-oss is changed, add it to push queue.
+
+2020-10-14 17:47:18,002 INFO serviceName: DEFAULT_GROUP@@service-oss changed, schedule push for: 192.168.56.1:2008, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,2008,30564952518000
+
+2020-10-14 17:47:18,002 INFO send udp packet: 192.168.56.1,2008,30564952518000
+
+2020-10-14 17:47:18,006 INFO received ack: {"type": "push-ack", "lastRefTime":"30564952518000", "data":""} from: 192.168.56.1:, cost: 2008 ms, unacked: 4, total push: 0
+
+2020-10-14 17:47:23,445 INFO DEFAULT_GROUP@@service-oss is changed, add it to push queue.
+
+2020-10-14 17:47:23,445 INFO serviceName: DEFAULT_GROUP@@service-oss changed, schedule push for: 192.168.56.1:2008, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,2008,30570395483100
+
+2020-10-14 17:47:23,445 INFO send udp packet: 192.168.56.1,2008,30570395483100
+
+2020-10-14 17:47:23,447 INFO received ack: {"type": "push-ack", "lastRefTime":"30570395483100", "data":""} from: 192.168.56.1:, cost: 2008 ms, unacked: 2, total push: 0
+
+2020-10-14 17:47:26,778 INFO DEFAULT_GROUP@@service-oss is changed, add it to push queue.
+
+2020-10-14 17:47:26,778 INFO serviceName: DEFAULT_GROUP@@service-oss changed, schedule push for: 192.168.56.1:2008, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,2008,30573728960200
+
+2020-10-14 17:47:26,778 INFO send udp packet: 192.168.56.1,2008,30573728960200
+
+2020-10-14 17:47:26,781 INFO received ack: {"type": "push-ack", "lastRefTime":"30573728960200", "data":""} from: 192.168.56.1:, cost: 2008 ms, unacked: 3, total push: 0
+
+2020-10-14 18:03:14,000 INFO DEFAULT_GROUP@@service-oss is changed, add it to push queue.
+
+2020-10-14 18:03:15,807 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
+
+2020-10-14 18:03:21,573 INFO DEFAULT_GROUP@@service-oss is changed, add it to push queue.
+
+2020-10-14 18:03:24,280 INFO DEFAULT_GROUP@@service-oss is changed, add it to push queue.
+
+2020-10-14 18:03:29,238 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
+

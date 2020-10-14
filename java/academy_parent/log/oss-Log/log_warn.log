@@ -98,3 +98,15 @@
 2020-10-14 17:36:12 |WARN  |main |Logger.java:44 |org.mybatis.spring.mapper.ClassPathMapperScanner |No MyBatis mapper was found in '[com.like.academy.edu.mapper]' package. Please check your configuration.
 2020-10-14 17:36:13 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
 2020-10-14 17:36:13 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
+2020-10-14 17:47:14 |WARN  |main |Logger.java:44 |org.mybatis.spring.mapper.ClassPathMapperScanner |No MyBatis mapper was found in '[com.like.academy.edu.mapper]' package. Please check your configuration.
+2020-10-14 17:47:15 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
+2020-10-14 17:47:15 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
+2020-10-14 17:47:18 |WARN  |main |Logger.java:44 |org.mybatis.spring.mapper.ClassPathMapperScanner |No MyBatis mapper was found in '[com.like.academy.edu.mapper]' package. Please check your configuration.
+2020-10-14 17:47:19 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
+2020-10-14 17:47:19 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
+2020-10-14 18:03:11 |WARN  |main |Logger.java:44 |org.mybatis.spring.mapper.ClassPathMapperScanner |No MyBatis mapper was found in '[com.like.academy.edu.mapper]' package. Please check your configuration.
+2020-10-14 18:03:13 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
+2020-10-14 18:03:13 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
+2020-10-14 18:03:15 |WARN  |main |Logger.java:44 |org.mybatis.spring.mapper.ClassPathMapperScanner |No MyBatis mapper was found in '[com.like.academy.edu.mapper]' package. Please check your configuration.
+2020-10-14 18:03:16 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.
+2020-10-14 18:03:16 |WARN  |main |URLConfigurationSource.java:121 |com.netflix.config.sources.URLConfigurationSource |No URLs will be polled as dynamic configuration sources.

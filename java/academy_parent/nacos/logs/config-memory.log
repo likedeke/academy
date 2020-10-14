@@ -510,3 +510,15 @@
 
 2020-10-14 16:28:43,232 INFO [long-pulling] client count 2
 
+2020-10-14 16:28:53,151 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2020-10-14 16:28:53,151 INFO toNotifyTaskSize=0
+
+2020-10-14 16:28:53,234 INFO [long-pulling] client count 2
+
+2020-10-14 16:29:03,151 INFO toNotifyTaskSize=0
+
+2020-10-14 16:29:03,151 INFO groupCount=1, subscriberClientCount=0, subscriberCount=0
+
+2020-10-14 16:29:03,236 INFO [long-pulling] client count 2
+

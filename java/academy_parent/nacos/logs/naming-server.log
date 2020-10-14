@@ -94,3 +94,74 @@ java.lang.IllegalArgumentException: server: 192.168.153.1:8848 is not in serverl
 2020-10-14 16:15:18,853 INFO receive config info: unknown#192.168.153.1:8848#1602663318853#4
 
 
+2020-10-14 16:15:20,867 INFO receive config info: unknown#192.168.153.1:8848#1602663320867#4
+
+
+2020-10-14 16:15:22,874 INFO receive config info: unknown#192.168.153.1:8848#1602663322874#4
+
+
+2020-10-14 16:15:24,875 INFO receive config info: unknown#192.168.153.1:8848#1602663324875#4
+
+
+2020-10-14 16:15:26,882 INFO receive config info: unknown#192.168.153.1:8848#1602663326882#4
+
+
+2020-10-14 16:15:28,888 INFO receive config info: unknown#192.168.153.1:8848#1602663328888#4
+
+
+2020-10-14 16:15:30,894 INFO receive config info: unknown#192.168.153.1:8848#1602663330894#4
+
+
+2020-10-14 16:15:32,899 INFO receive config info: unknown#192.168.153.1:8848#1602663332899#4
+
+
+2020-10-14 16:15:34,901 INFO receive config info: unknown#192.168.153.1:8848#1602663334901#4
+
+
+2020-10-14 16:15:36,907 INFO receive config info: unknown#192.168.153.1:8848#1602663336907#4
+
+
+2020-10-14 16:15:38,911 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-10-14 16:15:38,911 INFO receive config info: unknown#192.168.153.1:8848#1602663338911#4
+
+
+2020-10-14 16:15:40,917 INFO receive config info: unknown#192.168.153.1:8848#1602663340917#4
+
+
+2020-10-14 16:15:42,927 INFO receive config info: unknown#192.168.153.1:8848#1602663342927#4
+
+
+2020-10-14 16:15:44,941 INFO receive config info: unknown#192.168.153.1:8848#1602663344941#4
+
+
+2020-10-14 16:15:46,955 INFO receive config info: unknown#192.168.153.1:8848#1602663346955#4
+
+
+2020-10-14 16:15:48,971 INFO receive config info: unknown#192.168.153.1:8848#1602663348971#4
+
+
+2020-10-14 16:15:50,985 INFO receive config info: unknown#192.168.153.1:8848#1602663350985#4
+
+
+2020-10-14 16:15:52,998 INFO receive config info: unknown#192.168.153.1:8848#1602663352998#4
+
+
+2020-10-14 16:15:55,005 INFO receive config info: unknown#192.168.153.1:8848#1602663355005#4
+
+
+2020-10-14 16:15:57,016 INFO receive config info: unknown#192.168.153.1:8848#1602663357016#4
+
+
+2020-10-14 16:15:59,019 INFO receive config info: unknown#192.168.153.1:8848#1602663359019#4
+
+
+2020-10-14 16:16:01,022 INFO receive config info: unknown#192.168.153.1:8848#1602663361022#4
+
+
+2020-10-14 16:16:03,034 INFO receive config info: unknown#192.168.153.1:8848#1602663363034#4
+
+
+2020-10-14 16:16:05,042 INFO receive config info: unknown#192.168.153.1:8848#1602663365042#4
+
+
